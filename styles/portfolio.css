@@ -2,17 +2,21 @@
   --primary-color: #ccd8ed;
   --secondary-color: #54d5d5;
   --tertiary-color: #142c43;
+  --background-color: #111e42;
 }
 
 body {
-  background: #111e42;
+  background: var(--background-color);
   color: var(--primary-color);
-  text-align: center;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-size: 76px;
+}
+
+h2 {
   font-size: 56px;
 }
 
@@ -22,17 +26,42 @@ h3 {
 }
 
 h6 {
+  font-family: "Playfair Display", serif;
   font-size: 20px;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.container {
-  margin-top: 200px;
+.hero {
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.btn {
+  background: var(--tertiary-color);
+  color: var(--secondary-color);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.btn:hover {
+  background: var(--secondary-color);
+  color: var(--tertiary-color);
+}
+
+.btn-project {
+  background: var(--primary-color);
+  color: var(--background-color);
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  padding: 10px 15px;
 }
 
 footer {
