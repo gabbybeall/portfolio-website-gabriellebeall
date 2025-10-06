@@ -33,7 +33,7 @@ h6 {
 p {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 30px;
 }
 
 .hero {
@@ -67,4 +67,19 @@ p {
 footer {
   color: var(--secondary-color);
   font-size: x-large;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    text-align: center;
+  }
 }
