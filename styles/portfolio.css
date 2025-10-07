@@ -83,3 +83,8 @@ footer {
     text-align: center;
   }
 }
+
+.skill-icon {
+  color: var(--primary-color);
+  font-size: 20px;
+}
