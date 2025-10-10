@@ -37,7 +37,7 @@ p {
 }
 
 .hero {
-  padding: 160px 20px;
+  padding: 120px 20px;
   text-align: center;
 }
 
@@ -67,6 +67,11 @@ p {
 footer {
   color: var(--secondary-color);
   font-size: x-large;
+  padding: 30px 20px;
+}
+
+footer p {
+  color: var(--primary-color);
 }
 
 @media (max-width: 900px) {
@@ -82,6 +87,24 @@ footer {
   .project-description {
     text-align: center;
   }
+}
+
+.about-container {
+  padding: 120px 20px;
+}
+
+.certifications-box {
+  margin: 20px 40px;
+  padding: 30px;
+}
+
+.certifications-box:hover {
+  background: var(--tertiary-color);
+  transition: ease-in-out;
+}
+
+.certifications:hover {
+  color: var(--secondary-color);
 }
 
 .skill-icon {
