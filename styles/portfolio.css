@@ -30,6 +30,14 @@ h6 {
   font-size: 20px;
 }
 
+a {
+  color: var(--primary-color);
+}
+
+.certifications-box a:hover {
+  opacity: 0.5;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -87,6 +95,9 @@ footer p {
   .project-description {
     text-align: center;
   }
+  .about-container {
+    text-align: center;
+  }
 }
 
 .about-container {
@@ -96,18 +107,14 @@ footer p {
 .certifications-box {
   margin: 20px 40px;
   padding: 30px;
-}
-
-.certifications-box:hover {
-  background: var(--tertiary-color);
-  transition: ease-in-out;
-}
-
-.certifications:hover {
-  color: var(--secondary-color);
+  border-radius: 4px;
 }
 
 .skill-icon {
   color: var(--primary-color);
   font-size: 20px;
+}
+
+.skill-icon:hover {
+  color: var(--secondary-color);
 }
