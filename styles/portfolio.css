@@ -119,3 +119,7 @@ footer p {
 .skill-icon:hover {
   color: var(--secondary-color);
 }
+
+hr {
+  color: var(--primary-color);
+}
